@@ -1,0 +1,10 @@
+---
+
+default: -p pretty -p homolog -p html -p firefox --publish-quiet
+pretty: --format pretty
+homolog: AMBIENTE=homolog
+html: --format html --out=report/relatorio.html
+chrome: BROWSER=chrome
+chrome_headless: BROWSER=chrome_headless
+firefox: BROWSER=firefox
+firefox_headless: BROWSER=firefox_headless
